@@ -3,8 +3,10 @@
 
 #include "API.h"
 
+using namespace std;
+
 void log(const std::string& text) {
-    std::cerr << text << std::endl;
+    cerr << text << "\n";
 }
 
 int main(int argc, char* argv[]) {
